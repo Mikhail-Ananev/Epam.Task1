@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence", "Sequence.csproj", "{F576B90C-8E65-4819-ABE9-D4930334E8A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.Sequence", "Epam.Task1.Sequence.csproj", "{F576B90C-8E65-4819-ABE9-D4930334E8A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple", "..\Task1_2\Simple.csproj", "{CD160571-6133-487B-B3F7-D19D7559D11D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.Simple", "..\Task1_2\Epam.Task1.Simple.csproj", "{CD160571-6133-487B-B3F7-D19D7559D11D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square", "Task1_3\Square.csproj", "{189A9F9B-2852-43C9-BE87-70923871AEC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.Square", "Task1_3\Epam.Task1.Square.csproj", "{189A9F9B-2852-43C9-BE87-70923871AEC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

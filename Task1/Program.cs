@@ -4,39 +4,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task1_1
+namespace Sequence
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите положительное целое число:");
-            string str = Console.ReadLine();
+            Console.WriteLine("Enter a positive integer:");
             int x;
-            bool result = Int32.TryParse(str, out x);
+            bool result = Int32.TryParse(Console.ReadLine(), out x);
 
             if (result && x > 0)
             {
-                Console.WriteLine(Show(x));
+                Show(x);
             }
             else
-                Console.WriteLine("Введено некорректное значение.");
+            {
+                Console.WriteLine("Invalid value entered.");
+            }
         }
 
-        public static string Show(int n)
+        public static void Show(int n)
         {
-            var str = new StringBuilder();
 
             for (int i = 1; i <= n; i++)
             {
-                str.Append(i);
+                Console.Write(i);
                 if (i < n)
                 {
-                    str.Append(", ");
+                    Console.Write(", ");
                 }
             }
-
-            return str.ToString();
+            Console.WriteLine();
         }
     }
 }
